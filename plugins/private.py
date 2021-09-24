@@ -1,6 +1,6 @@
 """
-VideoPlayerBot, Telegram Video Chat Bot
-Copyright (c) 2021  Asm Safone <https://github.com/AsmSafone>
+Radio-video-streamer, Telegram Video Chat Bot
+Copyright (c) 2021  Disney Team77 <https://github.com/Disneyteam77>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
@@ -32,11 +32,11 @@ async def start(client, message):
                 InlineKeyboardButton("❔ HOW TO USE ME ❔", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("📢 CHANNEL", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                InlineKeyboardButton("SOURCE 📦", url=f"https://github.com/AsmSafone/VideoPlayerBot"),
+                InlineKeyboardButton("👨‍🔧UPDATES CHANNEL👨‍🔧", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton("🤖SUPPORT🤖", url=f"https://t.me/Disneyteamchat"),
             ],
             [
-                InlineKeyboardButton("🤖 ABOUT", callback_data="about"),
+                InlineKeyboardButton("🤔ABOUT🤔", callback_data="about"),
                 InlineKeyboardButton("CLOSE 🔒", callback_data="close"),
             ],
             [
@@ -58,7 +58,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton("🔙 BACK", callback_data="start"),
-                InlineKeyboardButton ("SUPPORT 💬", url=f"https://t.me/{SUPPORT_GROUP}"),
+                InlineKeyboardButton ("🤖SUPPORT🤖", url=f"https://t.me/{SUPPORT_GROUP}"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -74,7 +74,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton("🔙 BACK", callback_data="start"),
-                InlineKeyboardButton ("SUPPORT 💬", url=f"https://t.me/{SUPPORT_GROUP}"),
+                InlineKeyboardButton ("🤖SUPPORT🤖", url=f"https://t.me/{SUPPORT_GROUP}"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -92,11 +92,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("❔ HOW TO USE ME ❔", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("📢 CHANNEL", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                InlineKeyboardButton("SOURCE 📦", url=f"https://github.com/AsmSafone/VideoPlayerBot"),
+                InlineKeyboardButton("👨‍🔧UPDATES CHANNEL👨‍🔧", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton("🤖SUPPORT🤖", url=f"https://t.me/disneyteamchat"),
             ],
             [
-                InlineKeyboardButton("🤖 ABOUT", callback_data="about"),
+                InlineKeyboardButton("🤔ABOUT🤔", callback_data="about"),
                 InlineKeyboardButton("CLOSE 🔒", callback_data="close"),
             ],
             [
