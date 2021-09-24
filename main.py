@@ -1,6 +1,6 @@
 """
-VideoPlayerBot, Telegram Video Chat Bot
-Copyright (c) 2021  Asm Safone <https://github.com/AsmSafone>
+Radio-Video-Streamer, Telegram Video Chat Bot
+Copyright (c) 2021  Disney Team77 <https://github.com/disneyteam77>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
@@ -33,9 +33,9 @@ if not os.path.isdir("./downloads"):
 
 Bot.start()
 User.start()
-print("\n[INFO] - STARTED VIDEO PLAYER BOT, JOIN @ASMSAFONE !")
+print("\n[INFO] - STARTED VIDEO PLAYER BOT, JOIN @disneygrou !")
 
 idle()
 Bot.stop()
 User.stop()
-print("\n[INFO] - STOPPED VIDEO PLAYER BOT, JOIN @ASMSAFONE !")
+print("\n[INFO] - STOPPED VIDEO PLAYER BOT, JOIN @disneygrou !")
